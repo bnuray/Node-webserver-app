@@ -1,5 +1,5 @@
 const http = require('http'); //http ne permite sa cream un webserver
-const server = http.createServer((req,res)=>{ //req = request (what the client requests from us)
+const server = http.createServer((req,res)=>{ 
     if(req.url === '/') {
         var date = new Date();
         var current_minute = date.getMinutes();
